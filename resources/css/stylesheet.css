@@ -56,7 +56,6 @@
 
 /* Jumbotron CSS */
 .jumbotron {
-    
 }
 
 .jumbotron-wrapper {
@@ -64,6 +63,8 @@
     flex-direction: column;
     align-items: center;
     padding: 11.85rem;
+    margin-bottom: 0rem;
+    height: 45rem;
 }
 
 .jumbotron-duffel,
@@ -143,7 +144,7 @@
 .featured .container {
     width: 100%;
     padding: 0 7.5rem;
-    margin: 0 auto;
+    margin: 0 1rem 0 0;
 }
 
 .image-container {
@@ -262,6 +263,7 @@ footer {
         padding-left: 1rem;
         padding-bottom: 2rem;
         margin: 0;
+        margin-top: -1rem;
     }
     
     .featured img {
